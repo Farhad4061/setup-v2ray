@@ -10,4 +10,6 @@ jobs:
       with:
         config-base64: ${{ secrets.CONFIG }}
     - name: Setup upterm session
-      uses: lhotari/action-upterm@v1
+      uses: lhotari/action-upterm@v1- uses: wangsijie/setup-v2ray@v1
+    with:
+      config-base64: ${{ secrets.CONFIG }}
