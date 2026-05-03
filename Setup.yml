@@ -1,0 +1,2 @@
+- name: Setup v2ray
+  uses: wangsijie/setup-v2ray@v1
